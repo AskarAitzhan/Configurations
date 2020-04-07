@@ -1,37 +1,20 @@
 {
-	// When enabled, the diff editor ignores changes in leading or trailing whitespace.
-	"diffEditor.ignoreTrimWhitespace": false,
-
-	// Controls whether syntax highlighting should be copied into the clipboard.
-	"editor.copyWithSyntaxHighlighting": false,
-
-	// Controls the minimal number of visible leading and trailing lines surrounding the cursor. Known as 'scrollOff' or `scrollOffset` in some other editors.
-	"editor.cursorSurroundingLines": 10,
-
-	// Controls the font size in pixels.
-	"editor.fontSize": 14,
-
-	// Controls pasting when the line count of the pasted text matches the cursor count.
-	//  - spread: Each cursor pastes a single line of the text.
-	//  - full: Each cursor pastes the full text.
-	"editor.multiCursorPaste": "full",
-
-	// Controls how the editor should render whitespace characters.
-	//  - none
-	//  - boundary: Render whitespace characters except for single spaces between words.
-	//  - selection: Render whitespace characters only on selected text.
-	//  - all
-	"editor.renderWhitespace": "boundary",
-
-	// The number of spaces a tab is equal to. This setting is overridden based on the file contents when `editor.detectIndentation` is on.
-	"editor.tabSize": 2,
-	"editor.insertSpaces": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  
+  "editor.copyWithSyntaxHighlighting": false,
+  
+  "editor.cursorSurroundingLines": 10,
+  
+  "editor.fontSize": 14,
+  
+  "editor.multiCursorPaste": "full",
+  
+  "editor.renderWhitespace": "boundary",
+  
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
   "editor.detectIndentation": false,
 
-	// Specifies the icon theme used in the workbench or 'null' to not show any file icons.
-	//  - null: No file icons
-	//  - vs-minimal
-	//  - vs-seti
   "workbench.iconTheme": "vs-seti",
   "workbench.colorTheme": "Default High Contrast",
 
